@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #77c1bd;
+}
+
+.container{
+    height: 550px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    margin: 4% auto;
+    
+    
+
+}
+.image{
+    background-image: url(posara1UI/cam.jpeg);
+    height: 100%;
+    width: 50%;
+    background-size: 100% 100%;
+    background-color: royalblue;
+    border-radius: 10% 0 0 10%;
+}
+.for_form{
+    height: 100%;
+    width: 60%;
+    background-color: whitesmoke;
+    border-radius: 0 10% 10% 0;
+}
+.heading>h1,p{
+    text-align: center;
+}
+
+.heading>h1{
+    margin-top: 8%;
+    color: #41ada7;
+    font-size: 228%;
+}
+form{
+    margin: 5% 10%;
+
+
+}
+
+form > div{
+    /* margin: 2%; */
+    padding: 2%;
+
+}
+.Name_inp{
+    margin-left: 14%;
+    padding: 3%;
+    width: 67%;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(224, 219, 219);
+}
+.Email_inp{
+    margin-left: 14%;
+    padding: 3%;
+    width: 67%;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(224, 219, 219);
+}
+.Gender_inp{
+    margin-left: 18%;
+    padding: 2%;
+    border: none;
+    background-color: rgb(224, 219, 219);
+}
+.D-O-B_inp{
+    padding: 3%;
+    width: 66%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(224, 219, 219);
+}
+.City_inp{
+    margin-left: 18%;
+    padding: 3%;
+    width: 66%;
+    border-radius: 4px; 
+    border: none;
+    background-color: rgb(224, 219, 219);
+}
+.Country_inp{
+    margin-left: 11%;
+    padding: 3%;
+    width: 67%;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(224, 219, 219);
+}
+#space{
+    margin-left: 2.5%;
+}
+.inputs{
+    text-decoration: none;
+    font-size: 100%;
+}
+span:hover{
+    /* background-color: hotpink; */
+    color: #57a09c;
+}
+.subscription{
+    display: flex;
+    gap: 2em;
+}
+a:link {
+    text-decoration: none;
+    
+}
+a:hover{
+    color:#57a09c;
+}
+.buttons{
+    margin-left: 25%; 
+}
+
+.btn_inp{
+    width: 48%;
+    padding: 3.5%;
+    border: none;
+    background-color:rgb(224, 219, 219) ;
+}
